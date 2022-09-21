@@ -11,6 +11,7 @@ import Greeting from './KomponentyDoRenderowaniaWarunkowego/RenderwoanieWarunkow
 import CompForm from './KomponentFormularz';
 import FormSelect from './KompFormSelect';
 import FormBox from './KompFormBox';
+import Calculator from './KomponentyDoCalculation/PrzekazywanieDanychCalculation';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
