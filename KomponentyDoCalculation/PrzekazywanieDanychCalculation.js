@@ -9,11 +9,13 @@ class Calculator extends React.Component {
     this.state = { temperature: "", scale: "c" };
   }
 
-  handleCelsiusChange = (temperature) => {
+  handleCelsiusChange = (temperature) => { //przekazywanie danych w gore 2 miejsce
     this.setState({ scale: "c", temperature });
   };
+  // { scale: "c", temperature } to jest argument
+  //argumentem setState jest obiekt
 
-  handleFahrenheitChange = (temperature) => {
+  handleFahrenheitChange = (temperature) => { //to jest metoda
     this.setState({ scale: "f", temperature });
   };
 
@@ -43,12 +45,12 @@ class Calculator extends React.Component {
     const fahrenheit =
       scale === "c" ? tryConvert(temperature, toFahrenheit) : temperature;
 
-    return (
+    return ( //mamy zaczac od tego lekcje
       <div className="calculatorContaiment">
         <TemperatureInput
-          scale="c"
-          temperature={celsius}
-          onTemperatureChange={this.handleCelsiusChange}
+          scale="c" //przekazywanie danych w dol
+          temperature={celsius} //przekazywanie danych w dol
+          onTemperatureChange={this.handleCelsiusChange} //przekazywanie danych w gore 1 miejsce
         />
         <TemperatureInput
           scale="f"

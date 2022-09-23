@@ -4,7 +4,7 @@ import React from "react";
 class TemperatureInput extends React.Component {
 
   handleChange=(event)=> {
-    this.props.onTemperatureChange(event.target.value);
+    this.props.onTemperatureChange(event.target.value); //przekazywanie danych w gore 3 miejsce
   }
 
 
