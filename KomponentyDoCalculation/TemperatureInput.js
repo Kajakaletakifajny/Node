@@ -1,16 +1,18 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
+import React from "react";
 
 class TemperatureInput extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
-  handleChange(event) {
+  handleChange=(event)=> {
     this.props.onTemperatureChange(event.target.value);
   }
 
+
   render() {
+    const scaleNames = {
+      c: "Celsius",
+      f: 'Fahrenheit'
+    };
     const temperature = this.props.temperature;
     const scale = this.props.scale;
     return (

@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom/client";
+import ReactDOM from 'react-dom/client';
 import React from "react";
 import TemperatureInput from "./TemperatureInput";
 import BoilingVerdict from "./WynikGotowania";

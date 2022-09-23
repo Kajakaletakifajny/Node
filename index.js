@@ -22,9 +22,10 @@ root.render(
     {/* <SecondApp /> */}
     {/* <Toggle /> */}
     {/* <Greeting /> */}
-    <CompForm />
-    <FormSelect />
-    <FormBox />
+    {/* <CompForm />
+    <FormSelect /> */}
+    {/* <FormBox /> */}
+    <Calculator />
   </React.StrictMode>
 );
 
