@@ -6,12 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import Skladnia from './SkladniaSkryptuRenderowanieElementu';
 import SecondApp from './KomponentyFunkcyjneKlasowePropy';
 import Clock from './StanICyklZycia';
-import Toggle from './ObslugaZdarzenKlasa';
+import Toggle from './components/ObslugaZdarzenKlasa';
 import Greeting from './KomponentyDoRenderowaniaWarunkowego/RenderwoanieWarunkowe';
 import CompForm from './KomponentFormularz';
 import FormSelect from './KompFormSelect';
-import FormBox from './KompFormBox';
-import Calculator from './KomponentyDoCalculation/PrzekazywanieDanychCalculation';
+import FormBox from './components/KompFormBox';
+import Calculator from './components/KomponentyDoCalculation/PrzekazywanieDanychCalculation';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
